@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/owl.carousel/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/owl.carousel/dist/assets/owl.theme.default.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#info">Info</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <button id="theme-toggle">Modo Escuro</button>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Luis Guilherme Noacco</h1>
+            <p>developer</p>
+        </div>
+    </section>
+
+    <section class="about" id="info">
+        <div class="about-content">
+            <h2>about me</h2>
+            <div class="about-text">
+                <img src="profile.jpg" alt="Profile Image">
+                <p>
+                    Sou desenvolvedor de software com experiência em tecnologias como C#, HTML, CSS, e SQL. Além de criar soluções eficientes e escaláveis, sou motivado por minha curiosidade por diferentes áreas, como economia, jogos e carros. Essas influências me trazem sempre atualizações e inspiração, ajudando-me a trazer novas perspectivas e ideias para os projetos em que trabalho. Nos meus momentos de lazer, fascino-me por aprender e testar novas habilidades que me mantêm engajado e focado no crescimento pessoal e profissional, me motivando a enfrentar novos desafios com criatividade e determinação.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="game-section">
+        <h2 class="line-title">trending games</h2>
+        <div class="owl-carousel custom-carousel owl-theme">
+            <div class="item" style="background-image: url('seu_jogo1.jpg');">
+                <div class="item-desc">
+                    <h3>Dota 2</h3>
+                    <p>Dota 2 é uma arena de batalha online multijogador da Valve. O jogo é uma sequência de Defense of the Ancients, que foi um mod criado pela comunidade para Warcraft III da Blizzard Entertainment.</p>
+                </div>
+            </div>
+            <div class="item" style="background-image: url('seu_jogo2.jpg');">
+                <div class="item-desc">
+                    <h3>The Witcher 3</h3>
+                    <p>The Witcher 3 é um jogo de RPG de ação em mundo aberto desenvolvido pela CD Projekt. Um dos jogos mais aclamados pela crítica.</p>
+                </div>
+            </div>
+            <div class="item" style="background-image: url('seu_jogo3.jpg');">
+                <div class="item-desc">
+                    <h3>RDR 2</h3>
+                    <p>Red Dead Redemption 2 é um jogo de ação-aventura desenvolvido pela Rockstar Games, que explora a vida de um fora da lei.</p>
+                </div>
+            </div>
+            <div class="item" style="background-image: url('seu_jogo4.jpg');">
+                <div class="item-desc">
+                    <h3>PUBG Mobile</h3>
+                    <p>PUBG Mobile é um jogo de batalha real que apresenta partidas multiplayer onde os jogadores competem para ser o último sobrevivente.</p>
+                </div>
+            </div>
+            <div class="item" style="background-image: url('seu_jogo5.jpg');">
+                <div class="item-desc">
+                    <h3>Fortnite</h3>
+                    <p>Battle royale onde 100 jogadores lutam para ser a última pessoa em pé, um fenômeno da cultura pop e dos jogos.</p>
+                </div>
+            </div>
+            <div class="item" style="background-image: url('seu_jogo6.jpg');">
+                <div class="item-desc">
+                    <h3>Far Cry 5</h3>
+                    <p>Far Cry 5 é um jogo de tiro em primeira pessoa desenvolvido pela Ubisoft, ambientado em uma seita apocalíptica no Montana.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <h2>Contato</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+<!-- Rodapé -->
+<footer>
+    <div class="footer-content">
+        <ul class="footer-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#info">Info</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#projects">Projects</a></li>
+        </ul>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2024 Luis Noacco. Todos os direitos reservados.</p>
+    </div>
+</footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/owl.carousel/dist/owl.carousel.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
